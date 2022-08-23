@@ -1,0 +1,2 @@
+# SharePalLandingPage
+No external modules :)
