@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.309bea62.css",
+    "main.js": "/static/js/main.298ee72c.js",
+    "static/js/787.e5a69f43.chunk.js": "/static/js/787.e5a69f43.chunk.js",
+    "static/media/shoes.png": "/static/media/shoes.caae81130ab2939a0532.png",
+    "static/media/gift.png": "/static/media/gift.5698f423408bb322d274.png",
+    "static/media/dvd.png": "/static/media/dvd.b7791b06e2afd8f375b7.png",
+    "static/media/cart.png": "/static/media/cart.5f201a1e4831c7e68e29.png",
+    "static/media/hiking.png": "/static/media/hiking.b4ce2d169cc9dd4406bd.png",
+    "static/media/profile.png": "/static/media/profile.ae458f202e1b26ea1cfe.png",
+    "static/media/qumark.png": "/static/media/qumark.547962fbf24dd3f4150c.png",
+    "static/media/payment.png": "/static/media/payment.2c9687e82265ef8bc49e.png",
+    "static/media/logopn.png": "/static/media/logopn.0954e5a1ec18fe2e9034.png",
+    "static/media/camera.png": "/static/media/camera.0bfe085fe87ac21ee84b.png",
+    "static/media/motorcycle.png": "/static/media/motorcycle.50c19fc6fd419a482d0b.png",
+    "static/media/ps4.png": "/static/media/ps4.4429b5249655f7236873.png",
+    "static/media/like.png": "/static/media/like.6dc22afeea1bdc9e9a32.png",
+    "static/media/downloc.png": "/static/media/downloc.f99ac25c0635bfa46c70.png",
+    "index.html": "/index.html",
+    "main.309bea62.css.map": "/static/css/main.309bea62.css.map",
+    "main.298ee72c.js.map": "/static/js/main.298ee72c.js.map",
+    "787.e5a69f43.chunk.js.map": "/static/js/787.e5a69f43.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.309bea62.css",
+    "static/js/main.298ee72c.js"
+  ]
+}

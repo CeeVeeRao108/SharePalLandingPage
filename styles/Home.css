@@ -1,0 +1,185 @@
+.home {
+    margin-top: 80px;
+    display: flex;
+    width: 1309px;
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6e5ff;
+    border-radius: 20px;
+}
+
+.vrline {
+    height: 80%;
+    width: 2px;
+    background-color: black;
+}
+
+.a {
+    width: 499px;
+    height: 100px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Mulish';
+    font-weight: bold;
+}
+
+.a img {
+    width: 70px;
+    height: 70px;
+    border: none;
+}
+
+.itxt {
+    height: auto;
+    width: 200px;
+    font-family: 'mullish';
+    font-size: 23px;
+    font-weight: 0;
+}
+
+.home:nth-child(2) .itxt {
+    width: 250px;
+}
+
+
+
+.trekdiv {
+    width: 300px;
+    height: 185px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+.trekdiv:nth-of-type(2n) .md2 {
+    background-color: #0927ea;
+}
+
+.md1 {
+    height: inherit;
+    width: 200px;
+
+}
+
+.md2 {
+    background-color: #d7df22;
+    width: 100px;
+    height: inherit;
+    right: 0em;
+
+}
+
+.dp1 {
+    width: 150px;
+    height: 72px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 21px;
+    font-size: 24px;
+    font-family: 'mullish';
+
+}
+
+.dp2 {
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.md2 img {
+    width: 160px;
+    position: relative;
+    right: 70px;
+}
+
+.pt {
+    margin: 20px;
+    font-weight: bolder;
+}
+
+.prodlis {
+    margin-left: 12%;
+    width: 75vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 30px;
+}
+
+.trekdiv:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .prodlis {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 3px;
+    }
+
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .vrline {
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .prodlis {
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-left: 3px;
+    }
+
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: auto;
+    }
+
+    .vrline {
+        height: 1px;
+        width: 100%;
+        background-color: black;
+    }
+
+    .trekdiv {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer {
+        display: none;
+
+    }
+}

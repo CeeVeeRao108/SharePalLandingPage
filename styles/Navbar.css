@@ -1,0 +1,166 @@
+.navbar {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    font-family: 'Mulish';
+    z-index: 100;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Logo p {
+    font-size: 24px;
+}
+
+.Logo img {
+    margin-top: 2px;
+    width: auto;
+    height: 54px;
+    border: none;
+}
+
+.loc {
+    margin-top: 7px;
+    margin-left: -150px;
+    display: flex;
+    justify-items: center;
+
+}
+
+.loc img {
+    margin-top: 6px;
+    width: 20px;
+    height: 20px;
+
+    border: none;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    margin-left: -150px;
+}
+
+.icon {
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 5px 5px 5px;
+
+    border-radius: 20px;
+
+}
+
+.icons {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Mulish';
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 3px;
+}
+
+.icons img {
+    margin-top: -6px;
+    height: 35px;
+    border: none;
+    width: 30px;
+}
+
+.log {
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.lsb {
+    width: 140px;
+    height: 40px;
+
+    background: transparent;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Mulish';
+    color: #0927eb;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    border: 1px solid #0927eb;
+    font-weight: bold;
+    margin-top: 30px;
+
+
+
+}
+
+.lsb:hover {
+    box-shadow: inset;
+}
+
+.cart {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+    right: 100px;
+    border: none;
+}
+
+.LOL {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        display: none;
+    }
+
+    .LOL {
+        align-self: center;
+        display: flex;
+        width: 100%;
+        height: 67px;
+        right: 0px;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        font-family: 'Mulish';
+        z-index: 100;
+        background-color: white;
+        box-shadow: 3px 3px 3px 3px #888888;
+    }
+
+    .loc {
+
+        margin-left: 20px;
+
+
+
+    }
+
+    .loc img {
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+
+        border: none;
+    }
+
+
+}
